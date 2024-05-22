@@ -29,6 +29,6 @@ const Catalog = sequelize.define('Catalog',{
     }
 });
 
-sequelize.sync().then(()=>{console.log('Database Connected -Catalog Table')}).catch((err)=>{console.log('Database sync Error',err)});
+//sequelize.sync().then(()=>{console.log('Database Connected -Catalog Table')}).catch((err)=>{console.log('Database sync Error',err)});
 
 module.exports = { Catalog};
